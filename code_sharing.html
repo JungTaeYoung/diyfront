@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="diyHeader">
+        <div class="diyHeader__warp">
+            <a class="head_logo">
+                <img src="img/main/top_logo.png" alt="logo">
+            </a>
+            <div class="diy_meun">
+                <a>학습하기</a>
+                <a>코드공유</a>
+                <a>커뮤니티</a>
+                <a>로그인</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 컨텐츠 div -->
+    <div class="diyContent">
+        <!-- 코드 공유 div (사이즈 조정이 필요할 듯..) -->
+        <div class="diyCodeShare" >
+            <!-- 코드 공유 div의 리스트 wrapper -->
+            <div class="diyCodeShare__wrap">
+                <img src="img/code_sharing/main_banner.png" alt="코드 공유 메인 배너">
+                <!-- 코드 공유 게시글 리스트 - 1 -->
+                <div class="diyCodeShareList">
+                    <!-- 베스트 게시글, 새 게시글 이미지 -->
+                    <div class="diyCodeShare_best_new">
+                        <img src="img/code_sharing/best_btn.png" alt="베스트 게시글">
+                        <img src="img/code_sharing/new_btn.png" alt="새 게시글">
+                    </div>
+                    <!-- 각 게시글 리스트의 내용 (제목, 기준 작성일, 해시태그, 평점, 프로필콘 및 아이디 등) -->
+                    <p class="diyCodeShareTitle">이거 가져가면 뚜들겨 맞겠지...</p>
+                    <p class="diyCodeShareDate">1일 전 작성</p>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트</p>
+                    </div>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트2</p>
+                    </div>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트3</p>
+                    </div>
+                    <div class="diyCodeShareRating">평균 평점</div>
+                    <div class="diyCodeShareRatingScore">
+                        <img src="img/code_sharing/star-filled.png">
+                        <img src="img/code_sharing/star-filled.png">
+                        <img src="img/code_sharing/star-filled.png">
+                        <img src="img/code_sharing/star-filled.png">
+                        <img src="img/code_sharing/star-filled.png">
+                    </div>
+                    <!-- 게시자 프로필콘 및 아이디 -->
+                    <div class="diyCodeShareIcon">
+                        <img src="img/code_sharing/avatar.png">
+                        <p><b>비슷해요</b></p>
+                    </div>
+                </div>
+
+                <!-- 코드 공유 게시글 리스트 - 2 -->
+                <div class="diyCodeShareList">
+                    <div class="diyCodeShare_best_new">
+                        <img src="img/code_sharing/best_btn.png" alt="베스트 게시글">
+                    </div>
+                    <p class="diyCodeShareTitle">근데 야매로 만든건데 이게 맞나 ㅠ.</p>
+                    <p class="diyCodeShareDate">2일 전 작성</p>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트</p>
+                    </div>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트2</p>
+                    </div>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트3</p>
+                    </div>
+                    <div class="diyCodeShareRating">평균 평점</div>
+                    <div class="diyCodeShareRatingScore">
+                        <img src="img/code_sharing/star-filled.png">
+                        <img src="img/code_sharing/star-filled.png">
+                        <img src="img/code_sharing/star-filled.png">
+                        <img src="img/code_sharing/star-unfilled.png">
+                        <img src="img/code_sharing/star-unfilled.png">
+                    </div>
+                    <div class="diyCodeShareIcon">
+                        <img src="img/code_sharing/avatar.png">
+                        <p><b>맞아요?</b></p>
+                    </div>
+                </div>
+
+                <!-- 코드 공유 게시글 리스트 - 3 -->
+                <!-- best, new 란이 사라지면 화면 구성이 이상해짐. -->
+                <div class="diyCodeShareList">
+                    <div class="diyCodeShare_best_new">
+                    </div>
+                    <p class="diyCodeShareTitle">이걸 다 할 수 있을까요...?</p>
+                    <p class="diyCodeShareDate">3일 전 작성</p>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트</p>
+                    </div>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트2</p>
+                    </div>
+                    <div class="diyCodeShare_hash">
+                        <p class="diyCodeShare_hashText"># 테스트3</p>
+                    </div>
+                    <div class="diyCodeShareRating">평균 평점</div>
+                    <div class="diyCodeShareRatingScore">
+                        <img src="img/code_sharing/star-unfilled.png">
+                        <img src="img/code_sharing/star-unfilled.png">
+                        <img src="img/code_sharing/star-unfilled.png">
+                        <img src="img/code_sharing/star-unfilled.png">
+                        <img src="img/code_sharing/star-unfilled.png">
+                    </div>
+                    <div class="diyCodeShareIcon">
+                        <img src="img/code_sharing/avatar.png">
+                        <p><b>하...</b></p>
+                    </div>
+                </div>
+                <p style="text-align: center;"><b>[페이지네이션]</b></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
